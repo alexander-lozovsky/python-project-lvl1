@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 """brain_games."""
-from brain_games.scripts.cli import welcome_user
+from brain_games.cli import welcome_user
 
 
 def main():
