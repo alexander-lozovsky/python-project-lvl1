@@ -1,7 +1,9 @@
+"""cli."""
 import prompt
 
 
 def welcome_user():
+    """Greetings."""
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
-    print('Hello, ' + name + "!")
+    print('Hello, '.join([name, '!']))

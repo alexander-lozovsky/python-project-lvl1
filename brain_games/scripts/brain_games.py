@@ -1,8 +1,11 @@
 #!/usr/bin/env python
+
+"""brain_games."""
 from brain_games.scripts.cli import welcome_user
 
 
 def main():
+    """Call main function."""
     welcome_user()
 
 
