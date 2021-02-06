@@ -19,18 +19,14 @@ def run_game(rules, game):
     win_count = 0
     while win_count < 3:
         (question, answer) = game()
-        print('Question: ' + str(question))
+        print(f'Question: {question}')
         user_answer = prompt.string('Your answer: ')
 
         if user_answer == answer:
             print('Correct!')
             win_count += 1
         else:
-            print(
-                user_answer +
-                ' is wrong answer ;(. Correct answer was ' +
-                answer,
-            )
-            print("Let's try again, " + name + '!')
+            print(f'{user_answer} is wrong answer ;(. Correct answer was {answer}.')
+            print(f"Let's try again, {name}!")
             return
-    print('Congratulations, ' + name + '!')
+    print(f'Congratulations, {name}!')

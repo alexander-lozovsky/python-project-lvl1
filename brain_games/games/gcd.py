@@ -18,7 +18,7 @@ def gcd():
     first_number = randint(MIN_NUMBER, MAX_NUMBER)
     second_number = randint(MIN_NUMBER, MAX_NUMBER)
 
-    question = str(first_number) + ' ' + str(second_number)
+    question = f'{first_number} {second_number}'
     answer = str(math.gcd(first_number, second_number))
 
     return (question, answer)

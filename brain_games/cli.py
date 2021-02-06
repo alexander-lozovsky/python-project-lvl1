@@ -16,6 +16,6 @@ def ask_user_name():
         user name
     """
     name = prompt.string('May I have your name? ')
-    print('Hello, ' + name + '!')
+    print(f'Hello, {name}!')
 
     return name
