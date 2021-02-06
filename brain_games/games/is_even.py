@@ -12,11 +12,6 @@ def is_even():
             - answer - "yes" or "no"
     """
     question = randint(1, 100)
-    answer = ''
-
-    if question % 2 == 0:
-        answer = 'yes'
-    else:
-        answer = 'no'
+    answer = 'yes' if question % 2 == 0 else 'no'
 
     return (question, answer)
