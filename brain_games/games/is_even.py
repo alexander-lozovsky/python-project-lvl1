@@ -1,9 +1,16 @@
-"""Games."""
+"""Is even number game."""
 from random import randint
 
 
 def is_even():
-    """Is even number game."""
+    """
+    Generate is even number game.
+
+    Returns:
+        (question, answer) tuple:
+            - question - random number
+            - answer - "yes" or "no"
+    """
     question = randint(1, 100)
     answer = ''
 

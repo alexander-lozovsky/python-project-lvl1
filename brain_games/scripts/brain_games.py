@@ -5,7 +5,7 @@ from brain_games.cli import welcome_user
 
 
 def main():
-    """Call main function."""
+    """Run greetings."""
     welcome_user()
 
 
