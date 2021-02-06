@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-"""brain_gcd."""
+"""brain_progression."""
 
 from brain_games.games.progression import progression
 from brain_games.run_game import run_game
