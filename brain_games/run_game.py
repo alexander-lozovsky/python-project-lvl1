@@ -26,7 +26,7 @@ def run_game(rules, game):
             print('Correct!')
             win_count += 1
         else:
-            print(f'{user_answer} is wrong answer ;(. Correct answer was {answer}.')
+            print(f'{user_answer} is wrong answer ;(. Correct answer was {answer}.')  # noqa: E501
             print(f"Let's try again, {name}!")
             return
     print(f'Congratulations, {name}!')
